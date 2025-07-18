@@ -8,13 +8,13 @@ This Python script allows users to collect and store COVID testing data, includi
 - Validates:
   - Sample quality must be above 0.9
   - Calibration time must be less than 5 minutes
-- Stores valid data in a file named `covid-results.csv`
+- Stores valid data in a file named covid-results.csv
 
 ## How It Works
 
 1. The user is prompted to enter:
    - Their name
-   - Whether they tested positive (`y`) or negative (`n`)
+   - Whether they tested positive (y) or negative (n)
    - Sample quality (float)
    - Time since last calibration (int)
 
@@ -23,9 +23,9 @@ This Python script allows users to collect and store COVID testing data, includi
    - If the calibration time is acceptable
 
 3. If both checks pass, the data is stored in memory.
-4. When the user types `"stop"`, the session ends and results are saved to `covid-results.csv`.
+4. When the user types "stop", the session ends and results are saved to covid-results.csv.
 
 ##  Output
 
-The script creates a `covid-results.csv` file with the following format:
+The script creates a covid-results.csv file with the following format:
 
