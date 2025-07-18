@@ -28,4 +28,6 @@ This Python script allows users to collect and store COVID testing data, includi
 ##  Output
 
 The script creates a covid-results.csv file with the following format:
+name,test_result,sample_quality,calibration_time
+
 
